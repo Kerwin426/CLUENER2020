@@ -2,7 +2,7 @@ import torch
 import logging
 from torch.utils.data import Dataset
 
-
+# 111
 class NERDataset(Dataset):
     def __init__(self, words, labels, vocab, label2id):
         self.vocab = vocab
